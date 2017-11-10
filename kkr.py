@@ -29,7 +29,7 @@ def kkr(de, eps_imag, cshift=1e-6):
     w_i = np.reshape(w_i, (nedos, 1, 1))
 
     def integration_element(w_r):
-        factor = (1./(w_r - w_i - cshift) + 1./(-w_r - w_i + cshift)) * -0.5
+        factor = w_i / (w_i**2 - w_r**2 + cshift)
         total = np.sum(eps_imag * factor, axis=0)
         return total * (2/math.pi) * de + np.diag([1, 1, 1])
 
