@@ -15,7 +15,7 @@ def kkr(de, eps_imag, cshift=1e-6):
         eps_imag (np.array): A numpy array with dimensions (n, 3, 3), containing
             the imaginary part of the dielectric tensor.
         cshift (float, optional): The implemented method includes a small
-            complex shift. A larger value causes a slight broadening of the
+            complex shift. A larger value causes a slight smoothing of the
             dielectric function.
 
     Returns:
