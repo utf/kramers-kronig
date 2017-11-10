@@ -15,15 +15,18 @@ as: <sup>[[1]](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.73.045112)
 
 Where ε<sub>αβ</sub><sup>(1)</sup>(ω) is the real part of the dielectric constant
 at energy, ω. P is the principle value, ε<sub>αβ</sub><sup>(2)</sup>(ω') is the
-imaginary part of the dielectric constant and η is a small complex shift.
+imaginary part of the dielectric constant and η is a small complex shift. A
+larger η results in a slight smoothing of the real dielectric function.
 
-Together the full dielectric constant can be used to calculate the optical
+The dielectric constant can be used to calculate the optical
 absorption via the complex refractive index.
 
 
 References
 ----------
-[1]  M. Gajdoš, K. Hummer, G. Kresse, J. Furthmüller, and F. Bechstedt, "Linear optical properties in the PAW methodology", Phys. Rev. B **73**, 045112 (2006) DOI: [10.1103/PhysRevB.73.045112](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.73.045112)
+[1]  M. Gajdoš, K. Hummer, G. Kresse, J. Furthmüller, and F. Bechstedt, "Linear optical 
+properties in the PAW methodology", Phys. Rev. B **73**, 045112 (2006)
+DOI: [10.1103/PhysRevB.73.045112](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.73.045112)
 
 
 Usage
