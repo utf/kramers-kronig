@@ -9,14 +9,12 @@ transformation on the frequency-dependant imaginary dielectric function, to
 obtain the real part of the dielectric function. The transformation is defined
 as: <sup>[[1]](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.73.045112) </sup>
 
-<p align="center">
-<img src="https://cms.mpi.univie.ac.at/vasp/vasp/img610.png">
-</p>
+$$\epsilon _{{\alpha \beta }}^{{(1)}}(\omega )=1+{\frac  {2}{\pi }}P\int _{0}^{{\infty }}{\frac  {\epsilon _{{\alpha \beta }}^{{(2)}}(\omega ')\omega '}{\omega '^{2}-\omega ^{2}+i\eta }}d\omega '$$
 
-Where ε<sub>αβ</sub><sup>(1)</sup>(ω) is the real part of the dielectric constant
-at energy, ω. P is the principle value, ε<sub>αβ</sub><sup>(2)</sup>(ω') is the
-imaginary part of the dielectric constant and η is a small complex shift. A
-larger η results in a slight smoothing of the real dielectric function.
+Where $\epsilon _{{\alpha \beta }}^{{(1)}}(\omega )$ is the real part of the dielectric constant
+at energy, $\omega$. $P$ is the principle value, $\epsilon _{{\alpha \beta }}^{{(2)}}(\omega ')$ is the
+imaginary part of the dielectric constant and $\eta$ is a small complex shift. A
+larger $\eta$ results in a slight smoothing of the real dielectric function.
 
 The dielectric constant can be used to calculate the optical
 absorption via the complex refractive index.
